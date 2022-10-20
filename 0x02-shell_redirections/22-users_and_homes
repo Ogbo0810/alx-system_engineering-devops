@@ -1,2 +1,2 @@
 #!/bin/bash
-sort /etc/passwd | grep ^[A-Za-z] | cut -d ':' -f 1,6
+cut -d ':' -f 1,6 /etc/passwd | sort
