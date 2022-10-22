@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -c -d'\n' -f1
